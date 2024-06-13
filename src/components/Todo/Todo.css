@@ -1,0 +1,12 @@
+.todo {
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+.todo input {
+    width: 70%;
+}
+  
+.todo button {
+    width: 25%;
+}

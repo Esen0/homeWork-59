@@ -32,7 +32,7 @@ const Todo: React.FC = () => {
       };
 
     return (
-      <>
+      <div className='todo'>
       <input
         type="text"
         value={newTitle}
@@ -50,7 +50,7 @@ const Todo: React.FC = () => {
           />
         ))}
       </div>
-      </>
+      </div>
     )
   }
 
